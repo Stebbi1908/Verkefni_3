@@ -2,7 +2,7 @@ print ("Position in [1..10]:")
 
 position = int(input())
 
-#makes sure that the input is a number
+#makes sure that the input is a number betwine 1 and 10
 
 
 while (1 > position) or (position > 10):
@@ -10,7 +10,6 @@ while (1 > position) or (position > 10):
         print ("Position in [1..10]:")
         position = int(input())
 
-print(position)
 
 befoure = position - 1
 
