@@ -9,8 +9,10 @@ def menu():
     try:
         comand = int(input("Select an action:"))
 
-        if comand == (1 or 2 or 3 or 9):
+        if comand == (1 or 2 or 3):
             return(comand)
+        elif comand == 9:
+            return(0)
         else:
             return(menu())
 
